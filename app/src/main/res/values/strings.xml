@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MindWellness</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="navigation_drawer_open">open\n</string>
+</resources>
