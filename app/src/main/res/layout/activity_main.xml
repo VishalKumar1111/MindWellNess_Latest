@@ -22,7 +22,7 @@
             android:layout_marginStart="6dp"
             android:gravity="center"
             android:text="MindWellness"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="35sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/toolbar"

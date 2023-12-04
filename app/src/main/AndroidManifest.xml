@@ -31,6 +31,10 @@
             android:exported="true" />
         <activity android:name="com.rlogixmindwellness.MentalHealth.MentalHealth"
             android:exported="true"/>
+        <activity android:name="com.rlogixmindwellness.ConnectToDoctor.Doctor"
+            android:exported="true"/>
+        <activity android:name="com.rlogixmindwellness.BodyMAssIndex.BMI"
+            android:exported="true"/>
     </application>
 
 </manifest>

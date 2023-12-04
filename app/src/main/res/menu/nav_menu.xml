@@ -2,10 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_item1"
-        android:title="Item 1"
+        android:title="Your Profile"
         />
     <item
         android:id="@+id/nav_item2"
-        android:title="Item 2"/>
-    <!-- Add more items as needed -->
+        android:title="Calculate Your BMI"/>
+    <item
+        android:id="@+id/nav_item3"
+        android:title="Food and Diet"/>
+    <item
+        android:id="@+id/nav_item4"
+        android:title="Meditation Sound"/>
+    <item
+        android:id="@+id/nav_item5"
+        android:title="Share"/>
+
 </menu>

@@ -15,6 +15,8 @@ import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemChangeListener
 import com.denzcoskun.imageslider.models.SlideModel
 import com.google.android.material.navigation.NavigationView
+import com.rlogixmindwellness.BodyMAssIndex.BMI
+import com.rlogixmindwellness.ConnectToDoctor.Doctor
 import com.rlogixmindwellness.MentalHealth.MentalHealth
 import com.rlogixmindwellness.StressFolder.Stress
 
@@ -90,6 +92,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_item2 -> {
                     // Handle item 2 click
+                    startActivity(Intent(this@MainActivity,BMI::class.java))
                     drawerLayout.closeDrawers()
                     return@setNavigationItemSelectedListener true
                 }
@@ -176,7 +179,7 @@ class MainActivity : AppCompatActivity() {
                     description.text = descTitle[5]
 
                     mainImage.setImageResource(topicimageList[5])
-                //    mainImage.setOnClickListener {startActivity(Intent(this@MainActivity, Doctor::class.java))}
+                    mainImage.setOnClickListener {startActivity(Intent(this@MainActivity, Doctor::class.java))}
                     nameTitle.text = imageTitle[5]
 
                 }
@@ -184,9 +187,12 @@ class MainActivity : AppCompatActivity() {
             }
 
 
+
         }
 
         )
+
+
 
 
 /*
